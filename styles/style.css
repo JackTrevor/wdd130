@@ -200,6 +200,185 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+/* reviews.html styles */ 
+.users-box {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+}
+.user1 {
+    background-color: #895B1E; 
+    width: 90%;
+    height: 400px;
+    grid-column: 1/1;
+    margin-left: 5%;  
+} 
+.user2 {
+    width: 90%; 
+    height: 400px; 
+    background-color: #895B1E;   
+    grid-column: 2/2;
+    margin-left: 5%;
+    grid-row: 1/1;
+} 
+.user3 {
+    width: 90%; 
+    height: 400px; 
+    background-color: #895B1E; 
+    grid-column: 3/3;
+    margin-left: 5%;
+    grid-row: 1/1;  
+} 
+.users-img {
+    margin-top: 200px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    grid-column-gap: 0px; 
+}
+.user1-img {
+    width: 90%;
+    grid-column: 1/1;
+    margin-left: 5%;   
+}
+.user2-img {
+    width: 90%;
+    grid-column: 2/2;
+    margin-left: 5%;  
+}
+.user3-img {  
+    width: 90%;
+    grid-column: 3/3;
+    margin-left: 5%;  
+}
+.user1-msg {
+    grid-column: 1/1;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -300px;
+}
+.user2-msg {
+    grid-column: 2/2;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -300px;
+}
+.user3-msg {
+    grid-column: 3/3;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -300px;
+}
+.users-msg-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.users-title-msg {
+    grid-column: 1/1;
+    background-color: #895B1E;   
+    width: 50%;
+    margin-left: 25%;   
+    margin-top: 100px;
+    height: 100%;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -241,4 +420,3 @@ footer .social img {
         margin-top: 25px;
     }
 }
-    
